@@ -22,7 +22,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="de.fhg.fokus.famium.presentation"
+    id="cordova-plugin-presentation"
     version="0.0.2">
     <name>Presentation</name>
     <description>Cordova Presentation API Plugin</description>
@@ -69,7 +69,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Presentation">
-                <param name="android-package" value="de.fhg.fokus.famium.presentation.CDVPresentationPlugin"/>
+                <param name="android-package" value="cordova-plugin-presentation.CDVPresentationPlugin"/>
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
